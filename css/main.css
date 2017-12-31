@@ -1,0 +1,38 @@
+/*  Fuentes
+font-family: 'Dosis', sans-serif;
+font-family: 'Quattrocento Sans', sans-serif;*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #2B2B2B;
+  color: #D77A23;
+}
+
+.row {
+  height: 25vh;
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 65px;
+  font-family: 'Dosis', sans-serif;
+  letter-spacing: 1px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.circle {
+  background-image: url(../assets/images/icons.gif);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  box-shadow: inset 3.5px 0px 7px 1.5px gray;
+  height: 35px;
+  margin: auto;
+  width: 70px;
+}

@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #2B2B2B;
+  color: #D77A23;
+  font-family: 'Scope One', serif;
+}
+
+/*  header*/
+
+.title {
+  text-align: center;
+  font-size: 4.5rem;
+  margin-top: 35px;
+}
+
+.container-line {
+  display: block;
+  height: 50px;
+  margin: auto;
+  width: 90%;
+
+}
+
+.line {
+  border: 1px solid #ffff;
+  display: inline-block;
+  height: 1px;
+  margin-bottom: 41px;
+  width: 90%;
+}
+
+.square {
+  border: 1px solid #ffff;
+  display: inline-block;
+  height: 15px;
+  margin-bottom: 35px;;
+  width: 15px;
+}
+
+/*  mapa*/
+
+.map-container {
+  display: block;
+  height: 170px;
+  margin: auto;
+  width: 95%;
+}
+
+.map-container-modal {
+  display: block;
+  height: 120px;
+  margin: auto;
+  width: 280px;
+}
+
+/*  buscador*/
+
+.sub-title {
+  font-size: 2.5rem;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.input {
+  background: #E8E8E8;
+  font-size: 1.7rem;
+}
+
+.btn-search {
+  background: #2B2B2B;
+  border: 1px solid #E8E8E8;
+  color: #ffff;
+  height: 34px;
+}
+
+.btn-search:hover {
+  color: #ffff;
+}
+
+.btn-search:hover {
+  color: #D77A23;
+}
+
+/*  galeria de tipos de comidas*/
+  /*  Imágenes*/
+.food-images {
+  background-size: cover;
+  border: 3px solid #2B2B2B;
+  height: 85px;
+  position: relative;
+}
+
+.mexican-food {
+  background-image: url(../assets/images/1.jpg);
+}
+
+.peruvian-food {
+  background-image: url(../assets/images/2.jpg);
+}
+
+.italian-food {
+  background-image: url(../assets/images/3.jpg);
+}
+
+.french-food {
+  background-image: url(../assets/images/4.jpg);
+}
+
+.chinese-food {
+  background-image: url(../assets/images/5.jpg);
+}
+
+  /*  Imágenes*/
+
+.food-images:hover {
+  filter: grayscale(100%);
+  transition: opacity 500ms;
+}
+
+.gallery {
+  list-style: none;
+}
+.food-view {
+  margin-right: 10px;
+  margin-left: 20px;
+  opacity: 0.8;
+  width: 120px;
+}
+
+.food-view:hover {
+  border: 2.5px solid #D77A23;
+  border-radius: 5px;
+  filter: brightness(1.2);
+  opacity: 1;
+  width: 135px;
+}
+
+.li-img {
+  cursor: pointer;
+  float: left;
+  height: 100px;
+  width: auto;
+}
+
+/*  modal*/
+.title-modal {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.text-modal {
+  color: #D36C17;
+  text-align: center;
+}

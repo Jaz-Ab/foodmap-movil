@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=0.1">
+  <title>Foodmap</title>
+  <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Scope+One" rel="stylesheet">
+  <link rel="stylesheet" href="../css/home.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 class="title">Foodmap</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="container-line">
+            <span class="square"></span><span class="line"></span><span class="square"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <iframe class="map-container container" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.6673998885935!2d-77.03377478645632!3d-12.085224775156576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c88a9cdc60a5%3A0xb9c7ec6512fb8a0!2sCalle+Risso%2C+Lince+15046!5e0!3m2!1ses-419!2spe!4v1514482845272" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h4 class="sub-title">Comida cerca de ti</h4>
+        <div class="container style-input input-group">
+          <input id="input-search" type="text" class="input form-control" placeholder="mexicana, china, peruana, italiana..." aria-label="Search for...">
+          <span class="input-group-btn">
+            <button class="btn-search btn btn-secondary" type="button"><span class="icon-search glyphicon glyphicon-search" disabled></span></button>
+          </span>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <!-- Modal food -->
+    <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title title-modal" id="exampleModalLabel">Restaurant</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <iframe class="map-container-modal container" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.6673998885935!2d-77.03377478645632!3d-12.085224775156576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c88a9cdc60a5%3A0xb9c7ec6512fb8a0!2sCalle+Risso%2C+Lince+15046!5e0!3m2!1ses-419!2spe!4v1514482845272" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <div id="container-info">
+              <p class="text-modal">Nombre: Mar y sol</p>
+              <p class="text-modal">Dirección: 'Av. Imaginaria 3050</p>
+              <p class="text-modal">no hay Delivery</p>
+              <p class="text-modal">Horario: Lunes a Viernes de 9am a 10pm</p>
+            </div>
+            <button type="button" class="btn btn-primary">Pedir ahora</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row container">
+      <div id="container-food" class="container">
+
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="../vendors/js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../js/data.js"></script>
+  <script type="text/javascript" src="../js/home.js"></script>
+</body>
+</html>
