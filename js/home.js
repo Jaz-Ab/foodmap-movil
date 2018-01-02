@@ -17,10 +17,15 @@ function begin() {
   // mostrar lista de todos los restaurantes
   function listAll() {
     $containerFood.append(
-      '<div class="container container-home-img">' +
+      '<div id="food-home" class="container container-home-img">' +
       '<img class="img-home" src="../assets/images/food-home.jpg" alt="food">' +
       '</div>'
     );
+    // evento mousover
+    $('#food-home').mouseover(function() {
+      alert('Da click en el botón amalillo para ver los nombres de los restaurantes cercanos a ti.');
+    });
+    // iterando para agregar nombres de Restaurantes cercanos
     for (var i = 0; i < data.length; i++) {
       if ($inputSearch.val('')) {
         $('#exampleModalLabel').addClass('hidden');
@@ -45,7 +50,7 @@ function begin() {
       var $nameFood = data[i].name;
       if ($text === $nameFood) {
         $containerFood.append(
-          '<ul class="gallery">' +
+          '<ul id="ul-food" class="gallery">' +
             '<li id="modalFood" class="li-img" data-toggle="modal" data-target="#modal"><img class="food-view" src=' + data[i].photo + ' alt="food"></li>' +
           '</ul>'
         );
