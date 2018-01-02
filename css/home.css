@@ -59,7 +59,6 @@ body {
 }
 
 /*  buscador*/
-
 .sub-title {
   font-size: 2.5rem;
   margin-top: 30px;
@@ -86,36 +85,23 @@ body {
   color: #D77A23;
 }
 
-/*  galeria de tipos de comidas*/
-  /*  Imágenes*/
-.food-images {
-  background-size: cover;
-  border: 3px solid #2B2B2B;
-  height: 85px;
-  position: relative;
-}
-
-.mexican-food {
-  background-image: url(../assets/images/1.jpg);
-}
-
-.peruvian-food {
-  background-image: url(../assets/images/2.jpg);
-}
-
-.italian-food {
-  background-image: url(../assets/images/3.jpg);
-}
-
-.french-food {
-  background-image: url(../assets/images/4.jpg);
-}
-
-.chinese-food {
-  background-image: url(../assets/images/5.jpg);
+/*  boton de lista de restaurantes*/
+.btn-list {
+  display: block;
+  font-weight: bold;
+  margin: auto;
+  margin-bottom: 15px;
+  margin-top: 0px;
 }
 
   /*  Imágenes*/
+.img-home {
+  width: 100%;
+}
+
+.container-home-img {
+  width: 100%;
+}
 
 .food-images:hover {
   filter: grayscale(100%);
@@ -146,12 +132,7 @@ body {
   height: 100px;
   width: auto;
 }
-#modalFood {
-  cursor: pointer;
-  float: left;
-  height: 100px;
-  width: auto;
-}
+
 /*  modal*/
 .modal-header {
   height: 120px;

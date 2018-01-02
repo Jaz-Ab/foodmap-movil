@@ -16,19 +16,19 @@ function begin() {
 
   // mostrar lista de todos los restaurantes
   function listAll() {
+    $containerFood.append(
+      '<div class="container container-home-img">' +
+      '<img class="img-home" src="../assets/images/food-home.jpg" alt="food">' +
+      '</div>'
+    );
     for (var i = 0; i < data.length; i++) {
       if ($inputSearch.val('')) {
-        $containerFood.append(
-          '<ul class="gallery">' +
-            '<li id="modalFood' + i + '" data-name=' + data[i].photo + 'class="li-img" data-toggle="modal" data-target="#modal"><img class="food-view" src=' + data[i].photo + ' alt="country"></li>' +
-          '</ul>'
-        );
         $('#exampleModalLabel').addClass('hidden');
         $('#maps').addClass('hidden');
         $nameRestaurant.text('Lista de restaurantes cercanos');
         $containerInfo.append(
           '<ul class="list-food gallery">' +
-            '<li id="modalFood' + i + '" data-name=' + data[i].photo + 'class="li-img" data-toggle="modal" data-target="#modal">' + data[i].name + '</li>' +
+            '<li id="modalFood" class="list-food" data-toggle="modal" data-target="#modal">' + data[i].name + '</li>' +
           '</ul>'
         );
       }
@@ -46,7 +46,7 @@ function begin() {
       if ($text === $nameFood) {
         $containerFood.append(
           '<ul class="gallery">' +
-            '<li id="modalFood' + i + '" data-name=' + data[i].photo + 'class="li-img" data-toggle="modal" data-target="#modal"><img class="food-view" src=' + data[i].photo + ' alt="country"></li>' +
+            '<li id="modalFood" class="li-img" data-toggle="modal" data-target="#modal"><img class="food-view" src=' + data[i].photo + ' alt="food"></li>' +
           '</ul>'
         );
         $('#exampleModalLabel').removeClass('hidden');

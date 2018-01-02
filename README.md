@@ -3,14 +3,20 @@
 ***
 ## Se utilizó
 
-`HTML`   `CSS` `Framework Bootstrap` 'jQuery'
+`HTML`   `CSS` `Framework Bootstrap` `jQuery`
 
 
 ## Descripción
 
 Se trata de realizar un buscador de lugares para comer donde se filtra por
-tipo de comida (todo, china, mexicana, italiana y peruana) mostrando los
-resultados. Todo principalmente mediante jQuery.
+el nombre del Restaurante (Lineña, Tacos, Burritos, Pastas, etc) mostrando los
+resultados y luego dandole click en la imagen del restaurante aparece un modal
+con la información (dirección, horario, delivery,etc). Todo principalmente
+mediante jQuery.
+
+En la página principal se muestra el input y debajo un botón donde contiene la lista
+de Restaurantes cercanos al usuario. Al dar click en el boton puede obtener los
+nombres de los restaurantes para poder buscarlos ingresándolos en el input.
 
 ## Trabajo terminado
 

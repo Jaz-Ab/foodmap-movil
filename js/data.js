@@ -2,55 +2,55 @@ var data = [
   {
     'type': 'comida china',
     'name': 'Youtiao',
-    'dirección': 'Av. Imaginaria 3050',
+    'dirección': 'Av. Angamos 550',
     'delivery': false,
     'open': 'Lunes a Viernes de 9am a 10pm',
-    'photo': '../assets/images/2.jpg'
+    'photo': '../assets/images/5.jpg'
   },
   {
     'type': 'Comida china',
     'name': 'Siew Yhok',
-    'dirección': 'Av. Imaginaria 3050',
+    'dirección': 'Av. Arequipa 3850',
     'delivery': true,
     'open': 'Lunes a Viernes de 9am a 10pm',
-    'photo': '../assets/images/1.jpg'
+    'photo': '../assets/images/55.jpg'
   },
   {
     'type': 'Comida china',
     'name': 'Dim sum',
-    'dirección': 'Av. Imaginaria 3050',
+    'dirección': 'Av. Canadá 984',
+    'delivery': true,
+    'open': 'Lunes a Viernes de 9am a 10pm',
+    'photo': '../assets/images/555.jpg'
+  },
+  {
+    'type': 'Comida italiana',
+    'name': 'Arancini',
+    'dirección': 'Av. Tomás Valle 5050',
     'delivery': true,
     'open': 'Lunes a Viernes de 9am a 10pm',
     'photo': '../assets/images/3.jpg'
   },
   {
     'type': 'Comida italiana',
-    'name': 'Arancini',
-    'dirección': 'Av. Imaginaria 3050',
-    'delivery': true,
-    'open': 'Lunes a Viernes de 9am a 10pm',
-    'photo': '../assets/images/4.jpg'
-  },
-  {
-    'type': 'Comida italiana',
     'name': 'Lasañas',
-    'dirección': 'Av. Imaginaria 3050',
+    'dirección': 'Surco 750',
     'delivery': false,
     'open': 'Lunes a Viernes de 9am a 10pm',
-    'photo': '../assets/images/5.jpg'
+    'photo': '../assets/images/33.jpg'
   },
   {
     'type': 'Comida italiana',
     'name': 'Pastas',
-    'dirección': 'Av. Imaginaria 3050',
+    'dirección': 'Av. Perú 2600',
     'delivery': false,
     'open': 'Lunes a Viernes de 9am a 10pm',
-    'photo': '../assets/images/1.jpg'
+    'photo': '../assets/images/333.jpg'
   },
   {
     'type': 'Comida peruana',
     'name': 'Limeña',
-    'dirección': 'Av. Imaginaria 3050',
+    'dirección': 'Av. Santa Rosa 968',
     'delivery': true,
     'open': 'Lunes a Viernes de 9am a 10pm',
     'photo': '../assets/images/2.jpg'
@@ -58,41 +58,41 @@ var data = [
   {
     'type': 'Comida peruana',
     'name': 'Sazón criolla',
-    'dirección': 'Av. Imaginaria 3050',
+    'dirección': 'Jr. Carhuas 5840',
     'delivery': false,
     'open': 'Lunes a Viernes de 9am a 10pm',
-    'photo': '../assets/images/3.jpg'
+    'photo': '../assets/images/22.jpg'
   },
   {
     'type': 'Comida peruana',
     'name': 'Mar y sol',
-    'dirección': 'Av. Imaginaria 3050',
+    'dirección': 'Calle Las Flores 1320',
     'delivery': false,
     'open': 'Lunes a Viernes de 9am a 10pm',
-    'photo': '../assets/images/4.jpg'
+    'photo': '../assets/images/222.jpg'
   },
   {
     'type': 'Comida mexicana',
     'name': 'Burritos',
-    'dirección': 'Av. Imaginaria 3050',
+    'dirección': 'Av. Carlos Izaguirre 3455',
     'delivery': false,
     'open': 'Lunes a Viernes de 9am a 10pm',
-    'photo': '../assets/images/5.jpg'
+    'photo': '../assets/images/11.jpg'
   },
   {
     'type': 'Comida mexicana',
     'name': 'Tacos',
-    'dirección': 'Av. Imaginaria 3050',
+    'dirección': 'Jirón Hipólito Hunanue 120',
     'delivery': true,
     'open': 'Lunes a Viernes de 9am a 10pm',
-    'photo': '../assets/images/2.jpg'
+    'photo': '../assets/images/1.jpg'
   },
   {
     'type': 'Comida mexicana',
     'name': 'Enchiladas',
-    'dirección': 'Av. Imaginaria 3050',
+    'dirección': 'Los Libertadores 870',
     'delivery': true,
     'open': 'Lunes a Viernes de 9am a 10pm',
-    'photo': '../assets/images/1.jpg'
+    'photo': '../assets/images/111.jpg'
   }
 ];
