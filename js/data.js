@@ -1,6 +1,6 @@
 var data = [
   {
-    'type': 'Comida china',
+    'type': 'comida china',
     'name': 'Youtiao',
     'dirección': 'Av. Imaginaria 3050',
     'delivery': false,
