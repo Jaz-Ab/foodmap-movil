@@ -23,7 +23,7 @@ function begin() {
     );
     // evento mousover
     $('#food-home').mouseover(function() {
-      alert('Da click en el botón amalillo para ver los nombres de los restaurantes cercanos a ti.');
+      alert('Da click en el botón amarillo para ver la lista de restaurantes cercanos a ti.');
     });
     // iterando para agregar nombres de Restaurantes cercanos
     for (var i = 0; i < data.length; i++) {
